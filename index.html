@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TSOKAS — Τουριστικά Λεωφορεία & Πούλμαν · από το 1958</title>
+<meta name="description" content="Όμιλος ΤΣΟΚΑ. Σύγχρονος στόλος τουριστικών λεωφορείων, σχολικές μεταφορές, εταιρικές μετακινήσεις, VIP μεταφορές. Από το 1958 στην Αθήνα." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =============================================
+     NAVIGATION
+     ============================================= -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#top" class="logo" aria-label="TSOKAS — Αρχική">
+      TSOKAS<span class="dot"></span><span class="since">est. 1958</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Κύριο μενού">
+      <a href="#top">Αρχική</a>
+      <a href="#services">Υπηρεσίες</a>
+      <a href="stolos.html">Στόλος</a>
+      <a href="#contact">Επικοινωνία</a>
+    </nav>
+
+    <a href="#quote" class="btn-cta" style="display:none;" id="ctaDesktop">
+      Ζητήστε Προσφορά
+      <span class="arrow">→</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Άνοιγμα μενού" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- mobile menu -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <a href="#top"><span class="num">01</span>Αρχική</a>
+  <a href="#services"><span class="num">02</span>Υπηρεσίες</a>
+  <a href="stolos.html"><span class="num">03</span>Στόλος</a>
+  <a href="#contact"><span class="num">04</span>Επικοινωνία</a>
+  <a href="#quote" class="btn-cta">Ζητήστε Προσφορά <span class="arrow">→</span></a>
+</div>
+
+<!-- =============================================
+     HERO
+     ============================================= -->
+<section class="hero" id="top">
+  <div class="hero-bg">
+    <img src="images/tsokas-touristika-leoforeia.jpg" alt="Στόλος τουριστικών λεωφορείων TSOKAS μπροστά από το Ζάππειο, Αθήνα" />
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-grain" aria-hidden="true"></div>
+
+  <div class="container hero-inner">
+    <div class="hero-meta">
+      <span class="spot">ΑΘΗΝΑ · ΓΕΡΑΚΑΣ</span>
+      <span>ISO &nbsp;·&nbsp; TÜV AUSTRIA HELLAS</span>
+    </div>
+
+    <h1 class="display">
+      Ασφαλείς &amp; άνετες <span class="ital">μετακινήσεις</span><br>
+      από το 1958.
+    </h1>
+
+    <p class="lead">
+      Σύγχρονος στόλος τουριστικών λεωφορείων, mini bus και VIP vans —
+      σχεδιασμένος για κάθε σας μετακίνηση, με την εμπειρία τριών γενεών.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#quote" class="btn-primary">
+        Κλείστε τη Μετακίνησή σας
+        <span class="arrow">→</span>
+      </a>
+      <a href="stolos.html" class="btn-ghost">
+        Δείτε τον στόλο
+        <span class="arrow">→</span>
+      </a>
+    </div>
+
+    <div class="hero-foot">
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <strong>67</strong>
+          έτη <br>εμπειρίας
+        </div>
+        <div class="hero-stat">
+          <strong>80+</strong>
+          εξειδικευμένο <br>προσωπικό
+        </div>
+        <div class="hero-stat">
+          <strong>100%</strong>
+          πιστοποιημένος <br>στόλος
+        </div>
+      </div>
+      <div class="hero-scroll">scroll · κατεβείτε</div>
+    </div>
+  </div>
+</section>
+
+<!-- =============================================
+     SERVICES
+     ============================================= -->
+<section class="services section" id="services">
+  <div class="container">
+    <header class="services-head reveal">
+      <div>
+        <span class="eyebrow">02 — Υπηρεσίες</span>
+        <h2 class="display" style="margin-top:18px;">
+          Κάθε μετακίνηση,<br><span class="ital">η δική της λύση.</span>
+        </h2>
+      </div>
+      <p class="intro-text">
+        Από καθημερινές σχολικές διαδρομές μέχρι ιδιωτικές VIP μεταφορές —
+        ο όμιλος ΤΣΟΚΑ καλύπτει με συνέπεια κάθε μεταφορική ανάγκη,
+        με όχημα και πλήρωμα κατάλληλο για τον σκοπό σας.
+      </p>
+    </header>
+
+    <div class="services-grid">
+      <article class="service reveal">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 22V11a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v11"/>
+            <path d="M3 22h26"/>
+            <path d="M5 22v3"/><path d="M27 22v3"/>
+            <circle cx="10" cy="22" r="2.2" fill="currentColor"/>
+            <circle cx="22" cy="22" r="2.2" fill="currentColor"/>
+            <path d="M9 12h14"/><path d="M9 16h14"/>
+          </svg>
+        </div>
+        <div class="service-body">
+          <h3>Σχολικές Μεταφορές</h3>
+          <p>Ασφαλής, σταθερή και έγκαιρη καθημερινή μεταφορά μαθητών — με σύγχρονα οχήματα, εκπαιδευμένους οδηγούς και συνοδούς.</p>
+        </div>
+        <div class="service-num">01</div>
+      </article>
+
+      <article class="service reveal">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="5" y="9" width="22" height="17" rx="1.5"/>
+            <path d="M11 9V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v3"/>
+            <path d="M5 16h22"/>
+            <path d="M14 16v3"/><path d="M18 16v3"/>
+          </svg>
+        </div>
+        <div class="service-body">
+          <h3>Εταιρικές Μετακινήσεις</h3>
+          <p>Καθημερινή μεταφορά προσωπικού, εταιρικά events, συνέδρια και επαγγελματικά ταξίδια — με ευελιξία και προβλέψιμο κόστος.</p>
+        </div>
+        <div class="service-num">02</div>
+      </article>
+
+      <article class="service reveal">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="16" cy="16" r="12"/>
+            <path d="M4 16h24"/>
+            <path d="M16 4c4 4 6 8 6 12s-2 8-6 12c-4-4-6-8-6-12s2-8 6-12z"/>
+          </svg>
+        </div>
+        <div class="service-body">
+          <h3>Τουριστικές Εκδρομές</h3>
+          <p>Ημερήσιες ή πολυήμερες εκδρομές σε όλη την Ελλάδα — οργανωμένες ομαδικές και ιδιωτικές διαδρομές για ομίλους και πρακτορεία.</p>
+        </div>
+        <div class="service-num">03</div>
+      </article>
+
+      <article class="service reveal">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 20V13a2 2 0 0 1 2-2h22l3 4v5a1 1 0 0 1-1 1h-2"/>
+            <path d="M3 20h6"/><path d="M16 20h7"/>
+            <circle cx="11" cy="20" r="2.2" fill="currentColor"/>
+            <circle cx="25" cy="20" r="2.2" fill="currentColor"/>
+            <path d="M19 11v6"/><path d="M27 13l1 4"/>
+            <path d="M22 6l-1 5"/><circle cx="22" cy="5.4" r=".8" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="service-body">
+          <h3>VIP Μεταφορές</h3>
+          <p>Premium υπηρεσίες με μαύρα Mercedes Sprinter, mini bus και limo vans — για airport transfers, διακεκριμένους επισκέπτες και ιδιωτικές εκδηλώσεις.</p>
+        </div>
+        <div class="service-num">04</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =============================================
+     HERITAGE
+     ============================================= -->
+<section class="heritage">
+  <div class="container heritage-inner">
+    <div class="heritage-text reveal">
+      <span class="eyebrow on-dark">03 — Ο Όμιλος</span>
+      <h2 class="display" style="margin-top:18px;">
+        Τρεις γενιές <span class="ital">στον δρόμο</span>,<br>
+        μία υπόσχεση: <span class="ital">συνέπεια.</span>
+      </h2>
+      <p>
+        Ο όμιλος εταιριών ΤΣΟΚΑ δραστηριοποιείται στον χώρο του αυτοκινήτου
+        από το 1958, με κύριο άξονα την παροχή ολοκληρωμένων υπηρεσιών
+        μετακίνησης και τη δημιουργία σχέσεων εμπιστοσύνης διαρκείας με
+        τους πελάτες του.
+      </p>
+    </div>
+
+    <div class="heritage-stats reveal">
+      <div class="h-stat">
+        <span class="num">1958</span>
+        <span class="label">Έτος ίδρυσης</span>
+      </div>
+      <div class="h-stat">
+        <span class="num">80+</span>
+        <span class="label">Εργαζόμενοι του ομίλου</span>
+      </div>
+      <div class="h-stat">
+        <span class="num">3</span>
+        <span class="label">Γενιές αδιάλειπτης λειτουργίας</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =============================================
+     QUOTE FORM
+     ============================================= -->
+<section class="quote section" id="quote">
+  <div class="container quote-inner">
+    <div class="quote-info reveal">
+      <span class="eyebrow on-dark">05 — Ζητήστε προσφορά</span>
+      <h2 class="display" style="margin-top:18px;">
+        Πείτε μας<br><span class="ital">τη διαδρομή σας.</span>
+      </h2>
+      <p>
+        Συμπληρώστε τη φόρμα και η ομάδα μας θα επικοινωνήσει εντός
+        ολίγων ωρών με προσαρμοσμένη πρόταση μετακίνησης. Δωρεάν
+        εκτίμηση κόστους — χωρίς δέσμευση.
+      </p>
+
+      <div class="info-list">
+        <div class="info-row">
+          <span class="label">Τηλέφωνο</span>
+          <span class="value"><a href="tel:+302106613100">210 6613 100</a></span>
+        </div>
+        <div class="info-row">
+          <span class="label">Email</span>
+          <span class="value"><a href="mailto:coaches@tsokas.gr">coaches@tsokas.gr</a></span>
+        </div>
+        <div class="info-row">
+          <span class="label">Διεύθυνση</span>
+          <span class="value">Κομοτηνής 15-17,<br>153 44 Γέρακας, Αθήνα</span>
+        </div>
+        <div class="info-row">
+          <span class="label">Ώρες</span>
+          <span class="value">Δευ–Παρ · 09:00 – 17:00</span>
+        </div>
+      </div>
+    </div>
+
+    <form class="quote-form reveal" id="quoteForm" novalidate>
+      <div class="form-num">— Φόρμα αιτήματος —</div>
+      <h3>Πληροφορίες μετακίνησης</h3>
+
+      <div class="form-grid">
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Όνομα<span class="req">*</span></label>
+            <input type="text" id="name" name="name" placeholder="π.χ. Γιώργος Παπαδόπουλος" required />
+          </div>
+          <div class="field">
+            <label for="phone">Τηλέφωνο<span class="req">*</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="69x xxx xxxx" required />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="email">Email<span class="req">*</span></label>
+          <input type="email" id="email" name="email" placeholder="email@example.com" required />
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="date">Ημερομηνία μετακίνησης<span class="req">*</span></label>
+            <input type="date" id="date" name="date" required />
+          </div>
+          <div class="field">
+            <label for="people">Αριθμός ατόμων<span class="req">*</span></label>
+            <select id="people" name="people" required>
+              <option value="">Επιλέξτε…</option>
+              <option>1 – 8 άτομα</option>
+              <option>9 – 19 άτομα</option>
+              <option>20 – 35 άτομα</option>
+              <option>36 – 50 άτομα</option>
+              <option>50+ άτομα</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="from">Από<span class="req">*</span></label>
+            <input type="text" id="from" name="from" placeholder="Σημείο αναχώρησης" required />
+          </div>
+          <div class="field">
+            <label for="to">Προς<span class="req">*</span></label>
+            <input type="text" id="to" name="to" placeholder="Σημείο προορισμού" required />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="notes">Σχόλια / επιπλέον πληροφορίες</label>
+          <textarea id="notes" name="notes" rows="3" placeholder="Διάρκεια ταξιδιού, ειδικές ανάγκες, τύπος εκδήλωσης…"></textarea>
+        </div>
+
+        <div class="form-submit">
+          <button type="submit" class="btn-submit">
+            Αποστολή αιτήματος <span class="arrow">→</span>
+          </button>
+          <p class="form-note">
+            Πατώντας αποστολή, αποδέχεστε την επικοινωνία μας μαζί σας
+            σχετικά με το αίτημά σας.
+          </p>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- =============================================
+     FOOTER
+     ============================================= -->
+<footer class="footer" id="contact">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo">TSOKAS<span class="dot"></span></div>
+        <p>
+          Γ. Τσόκας Α.Ε. — Τουριστική &amp; Μεταφορική. Από το 1958
+          δίπλα στους πελάτες μας, με στόχο την απόλυτη ικανοποίηση
+          σε κάθε μετακίνηση.
+        </p>
+        <div class="socials" aria-label="Κοινωνικά δίκτυα">
+          <a href="https://el-gr.facebook.com/pages/Tsokas-sa-Coaches-Tourist-Buses/488400641231386" aria-label="Facebook" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.55l.4-3.1h-2.95V8.5c0-.9.25-1.5 1.55-1.5h1.65V4.2c-.3-.05-1.3-.13-2.45-.13-2.45 0-4.1 1.5-4.1 4.2v2.3H7.6v3.1h2.5V21h3.4z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/g-tsokas-sa-motorcoach-company" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 6.5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0zM3.18 8.94h3.6V20h-3.6V8.94zm6 0h3.45v1.5h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.4 4.3 5.5V20h-3.6v-5.2c0-1.25-.02-2.85-1.74-2.85-1.74 0-2 1.35-2 2.75V20h-3.6V8.94h-.26z"/></svg>
+          </a>
+          <a href="https://twitter.com/TSOKASCOACHES" aria-label="X / Twitter" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 3H21l-6.547 7.49L22.5 21h-6.182l-4.83-6.31L5.93 21H3.17l7.005-8.01L2.25 3h6.34l4.36 5.77L18.244 3zm-1.083 16.13h1.523L7.04 4.78H5.4l11.76 14.35z"/></svg>
+          </a>
+          <a href="mailto:coaches@tsokas.gr" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Πλοήγηση</h4>
+        <ul>
+          <li><a href="#top">Αρχική</a></li>
+          <li><a href="#services">Υπηρεσίες</a></li>
+          <li><a href="stolos.html">Στόλος</a></li>
+          <li><a href="#quote">Ζητήστε προσφορά</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Υπηρεσίες</h4>
+        <ul>
+          <li>Σχολικές μεταφορές</li>
+          <li>Εταιρικές μετακινήσεις</li>
+          <li>Τουριστικές εκδρομές</li>
+          <li>VIP μεταφορές &amp; transfers</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Επικοινωνία</h4>
+        <ul>
+          <li><a href="tel:+302106613100">210 6613 100</a></li>
+          <li><a href="mailto:coaches@tsokas.gr">coaches@tsokas.gr</a></li>
+          <li>Κομοτηνής 15-17,<br>153 44 Γέρακας</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2026 Γ. Τσόκας Α.Ε. — Τουριστική Μεταφορική. Με την επιφύλαξη παντός δικαιώματος.</div>
+      <div class="legal">
+        <a href="#">Πολιτική απορρήτου</a>
+        <a href="#">Όροι χρήσης</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Sticky nav
+  const nav = document.getElementById('nav');
+  const cta = document.getElementById('ctaDesktop');
+  const onScroll = () => {
+    const scrolled = window.scrollY > 40;
+    nav.classList.toggle('scrolled', scrolled);
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  // CTA button visible only on desktop
+  const setCta = () => {
+    cta.style.display = window.innerWidth >= 1024 ? 'inline-flex' : 'none';
+  };
+  setCta();
+  window.addEventListener('resize', setCta);
+
+  // Mobile menu
+  const toggle = document.getElementById('menuToggle');
+  const menu = document.getElementById('mobileMenu');
+  toggle.addEventListener('click', () => {
+    const open = !menu.classList.contains('open');
+    menu.classList.toggle('open', open);
+    toggle.classList.toggle('open', open);
+    toggle.setAttribute('aria-expanded', String(open));
+    menu.setAttribute('aria-hidden', String(!open));
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    menu.classList.remove('open');
+    toggle.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+    menu.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }));
+
+  // Reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Form submit (demo — no backend)
+  const form = document.getElementById('quoteForm');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const btn = form.querySelector('.btn-submit');
+    const original = btn.innerHTML;
+    btn.innerHTML = 'Το αίτημά σας στάλθηκε ✓';
+    btn.style.background = '#2d6a4f';
+    btn.style.color = '#fff';
+    setTimeout(() => {
+      btn.innerHTML = original;
+      btn.style.background = '';
+      btn.style.color = '';
+      form.reset();
+    }, 2800);
+  });
+</script>
+</body>
+</html>
