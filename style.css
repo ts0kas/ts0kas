@@ -1090,3 +1090,8 @@ body.inner-page .nav {
 body.inner-page main {
   padding-top: 70px; /* clears the fixed nav */
 }
+
+/* Spinner for form loading state */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
